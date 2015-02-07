@@ -207,7 +207,6 @@ class puppetboard(
 
   file { "${basedir}/puppetboard":
     owner   => $user,
-    recurse => true,
   }
 
   #Template consumes:
